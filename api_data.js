@@ -1,7 +1,7 @@
 define({ "api": [
   {
     "type": "get",
-    "url": "/user/:id",
+    "url": "/v2/user/:id",
     "title": "Request User information",
     "name": "GetUser",
     "group": "User",
