@@ -1,0 +1,28 @@
+{
+  "name": "api-docs",
+  "version": "3.1.1",
+  "description": "Documentation for WCPE platform",
+  "main": "index.js",
+  "scripts": {
+    "build": "apidoc -i ./../wcpe-api/express/routes -o .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:WesternCPE/api-docs.git"
+  },
+  "author": "Bradford Knowlton",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/WesternCPE/api-docs/issues"
+  },
+  "homepage": "https://github.com/WesternCPE/api-docs/",
+  "dependencies": {
+    "apidoc": "^0.25.0"
+  },
+  "apidoc": {
+    "name": "WesternCPE API Documentation",
+    "title": "WesternCPE API Platform",
+    "url": "https://api.westerncpe.com/"
+  }
+}
