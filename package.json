@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/WesternCPE/api-docs/",
   "dependencies": {
-    "apidoc": "^0.27.0"
+    "apidoc": "^0.54.0"
   },
   "apidoc": {
     "name": "WesternCPE API Documentation",
